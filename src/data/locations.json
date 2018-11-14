@@ -1,0 +1,111 @@
+[{
+		"id": "diridon",
+		"title": "San Jose Diridon",
+		"name": "Diridon Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3310309,
+			"lng": -121.9028582
+		},
+		"altname": "San Jose, CA"
+	},
+	{
+		"id": "college-park",
+		"title": "College Park",
+		"name": "College Park Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3424304,
+			"lng": -121.9158321
+		},
+		"altname": "San Jose, CA"
+	},
+	{
+		"id": "santa-clara",
+		"title": "Santa Clara",
+		"name": "Santa Clara Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3531405,
+			"lng": -121.9368485
+		},
+		"altname": "Santa Clara, CA"
+	},
+	{
+		"id": "lawrence",
+		"title": "Lawrence",
+		"name": "Lawrence Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3703697,
+			"lng": -121.9961651
+		},
+		"altname": "Sunnyvale, CA"
+	},
+	{
+		"id": "sunnyvale",
+		"title": "Sunnyvale",
+		"name": "Sunnyvale Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3781887,
+			"lng": -122.0315689
+		},
+		"altname": "Sunnyvale, CA"
+	},
+	{
+		"id": "mountain-view",
+		"title": "Mountain View",
+		"name": "Mountain View Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.3937715,
+			"lng": -122.0766438
+		},
+		"altname": "Mountain View, CA"
+	},
+	{
+		"id": "san-antonio",
+		"title": "San Antonio",
+		"name": "San Antonio Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.407202,
+			"lng": -122.10716000000002
+		},
+		"altname": "Mountain View, CA"
+	},
+	{
+		"id": "california-avenue",
+		"title": "California Avenue",
+		"name": "California Avenue Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.4291668,
+			"lng": -122.14190769999999
+		},
+		"altname": "Palo Alto, CA"
+	},
+	{
+		"id": "palo-alto",
+		"title": "Palo Alto",
+		"name": "Palo Alto Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.4440056,
+			"lng": -122.1662888
+		},
+		"altname": "Palo Alto, CA"
+	},
+	{
+		"id": "menlo-park",
+		"title": "Menlo Park",
+		"name": "Menlo Park Station",
+		"category": ["VTA", "CAL-TRAIN"],
+		"position": {
+			"lat": 37.4541977,
+			"lng": -122.1841374
+		},
+		"altname": "Menlo Park, CA"
+	}
+]

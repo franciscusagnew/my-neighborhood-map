@@ -1,0 +1,86 @@
+.places-list .item {
+  font-family: 'Roboto Mono', monospace;
+  border-bottom: 1px solid #000;
+  margin: 0.5em 0 0;
+  text-decoration: none;
+  padding: 0 1em;
+  transition: min-height 0.3s;
+}
+
+.places-list .item.details-show {
+  padding: 0.5em;
+  min-height: 5em;
+  background-color: #fff;
+}
+
+.places-list .item.details-hidden {
+  padding: 0.5em 0;
+  min-height: 3em;
+}
+
+.details {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+.details h4 {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin: 0.5em 0 1em;
+}
+
+.places-list .item.details-show .details {
+  transition: translate(0, 0);
+
+}
+
+.places-list .item.details-hidden .details {
+  transition: translate(0, -300px);
+}
+
+.places-list .item a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.places-list .item ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.75em;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.item .tag {
+  font-weight: 300;
+  padding: 0.5em;
+  margin-right: 0.25em;
+  color: #000;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.item .photo {
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  background-size: cover;
+  margin: 0.2em 0.2em 0 0;
+}
+
+.item .photo:nth-child(2n+0) {
+  margin: 0.2em 0 0 0;
+}
+
+.item-list-images {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.list-item-description {
+  font-size: 0.8em;
+}

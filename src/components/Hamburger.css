@@ -1,0 +1,22 @@
+.hamburger {
+  position: absolute;
+  fill: #999;
+  right: 300px;
+  top: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.hamburger-element {
+  transition: 0.3s;
+}
+
+.side-panel.show .hamburger-element:nth-child(1) {
+  transform: rotate(45deg) scaleX(0.5);
+  transform-origin: 29px 35px;
+}
+
+.side-panel.show .hamburger-element:nth-child(3) {
+  transform: rotate(-45deg) scaleX(0.5);
+  transform-origin: 30px 24px;
+}

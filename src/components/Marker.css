@@ -1,0 +1,16 @@
+.marker {
+  width: 48px;
+  height: 64px;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+
+.marker.bounce {
+  animation: bounce 0.8s cubic-bezier(.20,.70,.80,.60);
+}
+
+@keyframes bounce {
+   33% { transform: translate(-50%, -100%); }
+   66% { transform: translate(-50%, -130%); }
+  100% { transform: translate(-50%, -100%); }
+}
